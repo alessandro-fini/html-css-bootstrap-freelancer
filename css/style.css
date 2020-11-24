@@ -155,6 +155,12 @@ section{
 .ms_layover:hover .ms_overlay{
   opacity: 1;
 }
+
+@media screen and (max-width: 767px) {
+  .ms_overlay{
+    display: none;
+  }
+}
 /* /portfolio */
 
 /* about */
